@@ -1,7 +1,8 @@
 ## CONTINUOUS DELIVERY ON AWS
 
 
-**Beacause in an Agile SDLC, there will be frequent code changes**
+**Because in an Agile SDLC, there will be frequent code changes**
+
 
 - Manual code deployment is time consuming
 
@@ -19,9 +20,9 @@
 
 
 
-SOLUTION
+### SOLUTION
 
-Continuous delivery
+**Continuous delivery**
 
 
 #### Build - Test - Deploy - and test for every commit
@@ -34,7 +35,7 @@ Continuous delivery
 
 
 
-### WORKFLOW
+#### WORKFLOW
 
 
 - Developers will make changes to the code and push to github which also have our Jenkins pipeline code
@@ -80,13 +81,13 @@ a. IAM, ECR repo setup
 
 5. Jenkins step
 
-**install plugins**
+**installing following plugins**
 
-a. Amazon ECR
+- Amazon ECR
 
-b. Docker, docker build and publish
+- Docker, docker build and publish
 
-c. pipeline: aws steps
+- Pipeline: aws steps
 
 
 6. Install docker engine & awscli on jenkins
@@ -95,7 +96,7 @@ c. pipeline: aws steps
 
 8. ECS setup
 
-- cluster, task definition, service
+   - cluster, task definition, service
 
 9. Write code for deploy docker image to ECS
 
