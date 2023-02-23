@@ -83,10 +83,10 @@
 
 5. Jenkins step
 
-**installing following plugins**
+**Installing following plugins**
 
   - Amazon ECR
-
+  
   - Docker, docker build and publish
 
   - Pipeline: aws steps
