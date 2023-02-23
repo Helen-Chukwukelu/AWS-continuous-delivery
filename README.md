@@ -78,18 +78,18 @@
 
 4. AWS steps
 
-a. IAM, ECR repo setup
+   - IAM, ECR repo setup
 
 
 5. Jenkins step
 
 **installing following plugins**
 
-- Amazon ECR
+  - Amazon ECR
 
-- Docker, docker build and publish
+  - Docker, docker build and publish
 
-- Pipeline: aws steps
+  - Pipeline: aws steps
 
 
 6. Install docker engine & awscli on jenkins
