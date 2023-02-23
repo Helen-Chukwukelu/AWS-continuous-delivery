@@ -27,9 +27,11 @@
 
 #### Build - Test - Deploy - and test for every commit
 
-- Automated process
+**How can it help you?**
 
-- Notify for every build status
+- It is an Automated process
+
+- You can be notified for every build status
 
 - Fix code if bugs or error is found instantly instead of waiting
 
